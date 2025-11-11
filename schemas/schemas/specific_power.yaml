@@ -1,0 +1,11 @@
+compressor_model:
+  oem: string
+  series: string
+  year_range: string
+  rated_kw: number
+  rated_cfm: number
+  specific_power_kw_per_cfm: number
+  unload_pct: number
+  source_url: string
+  last_verified: date
+  confidence: "A"|"B"|"C"
