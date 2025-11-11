@@ -1,0 +1,12 @@
+tariff_entry:
+  discom: string
+  state: string
+  effective_from: date
+  tou_slots:
+    - start: "HH:MM"
+      end: "HH:MM"
+      rate_inr_per_kWh: number
+  demand_rate_inr_per_kW: number
+  source_url: string
+  last_verified: date
+  confidence: "A"|"B"|"C"
