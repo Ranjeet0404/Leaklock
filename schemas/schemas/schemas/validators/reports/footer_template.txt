@@ -1,0 +1,6 @@
+IPMVP Option A | Baseline: {{baseline_start}} – {{baseline_end}}
+Tariff: {{discom}} v{{tariff_version}} | TOU rates applied
+Unload %: {{unload_pct}} | Power Factor assumed: {{pf}}
+Sources: {{source_list}}
+Data Hash: SHA256:{{lineage_hash}} | Confidence: {{confidence}}
+Clock Skew: {{clock_skew_sec}}s
