@@ -1,0 +1,11 @@
+mv_period:
+  site_id: string
+  start_ts: datetime
+  end_ts: datetime
+  baseline_kwh: number
+  actual_kwh: number
+  adj_kwh: number
+  saved_inr: number
+  clock_skew_sec: integer
+  ipmvp_option: "A"
+  lineage_hash: string
